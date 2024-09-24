@@ -1,0 +1,106 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.border {
+    border: 2px solid white;
+    margin: 3px;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.bgblack {
+    background-color: black;
+    color: rgb(137, 135, 135);
+}
+
+.invert {
+    filter: invert(1);
+}
+
+.bg-grey {
+    background-color: #121212;
+}
+
+.round {
+    border-radius: 7px;
+}
+
+.m-2 {
+    margin: 8px;
+}
+
+
+
+/* Custom Dark Scrollbar */
+::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2c2c;
+    /* Background of the scrollbar track */
+    border-radius: 10px;
+    /* Optional: Adds rounded corners to the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #555;
+    /* Scrollbar color */
+    border-radius: 10px;
+    /* Optional: Adds rounded corners to the thumb */
+    border: 3px solid #2c2c2c;
+    /* Adds space around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #888;
+    /* Color when hovering over the scrollbar */
+}
+
+/* For Firefox */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #2c2c2c;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 90%;
+    height: 3px;
+    background: black;
+    outline: none;
+    opacity: 0.7;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    border: none;
+}
